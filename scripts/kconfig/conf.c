@@ -598,6 +598,7 @@ int main(int ac, char **av)
 					"***\n"), name);
 				exit(1);
 			}
+		}
 
 		name = getenv("KCONFIG_DEBUG");
 		printf("KCONFIG_DEBUG(%s)\n", name);
