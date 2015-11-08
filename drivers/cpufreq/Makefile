@@ -17,6 +17,7 @@ obj-$(CONFIG_CPU_FREQ_GOV_ASSWAX)       += cpufreq_asswax.o
 obj-$(CONFIG_CPU_FREQ_GOV_DANCEDANCE)   += cpufreq_dancedance.o
 obj-$(CONFIG_CPU_FREQ_GOV_LIONHEART)    += cpufreq_lionheart.o
 obj-$(CONFIG_CPU_FREQ_GOV_SMARTMAX)    += cpufreq_smartmax.o
+obj-$(CONFIG_CPU_FREQ_GOV_ARTERACTIVE)	+= cpufreq_arteractive.o
 obj-$(CONFIG_CPU_FREQ_GOV_CONSERVATIVEX) += cpufreq_conservativex.o
 obj-$(CONFIG_CPU_FREQ_GOV_PEGASUSQ)	+= cpufreq_pegasusq.o
 obj-$(CONFIG_CPU_FREQ_GOV_ABYSSPLUGV2)	+= cpufreq_abyssplugv2.o
